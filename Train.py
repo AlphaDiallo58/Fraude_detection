@@ -6,7 +6,7 @@ from sklearn.utils import class_weight
 
 def train_model(model_name, param, X_train, y_train, n_estimators=1000, apply_class_weight=True):
     """
-    Entraîne un modèle donné (LightGBM ou XGBoost) avec les hyperparamètres donnés.
+    Entraînement (LightGBM ou XGBoost) avec les hyperparamètres donnés.
 
     """
     if apply_class_weight:

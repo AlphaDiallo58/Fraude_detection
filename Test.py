@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 def test_model(model, X_test, y_test, threshold=0.5):
     """
-    Teste le modèle donné sur les données de test et renvoie les résultats d'évaluation.
+    Teste le modèle sur les données de test et renvoie les résultats d'évaluation.
 
     """
     

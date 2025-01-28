@@ -12,7 +12,7 @@ Structure du Projet
 Installez les dépendances avec :
 pip install -r requirements.txt
 
-Utilisation
+Utilisation :
 python main.py
 
 Résultats :
