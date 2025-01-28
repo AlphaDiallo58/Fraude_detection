@@ -16,6 +16,6 @@ Utilisation :
 python main.py
 
 Résultats :
-    ROC AUC : 98%
-    Précision : 91%
+    ROC AUC : 98%,
+    Précision : 91%,
     Rappel (classe positive) : 85%
