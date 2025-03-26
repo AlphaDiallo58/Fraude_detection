@@ -1,21 +1,39 @@
-Ce projet implémente un modèle de détection de fraude sur les transactions par carte de crédit à l'aide de LightGBM et XGBoost ( défi : Manque énorme de données pour la classe positive)
+# Fraud Detection - Credit Card Transactions
 
-Structure du Projet
+## Overview
 
-    main.py : Lance l'ensemble du pipeline (prétraitement, entraînement et évaluation).
-    data_processing_n_analysis.py : Prépare les données et contient les fonctions d'analyse.
-    Train.py : Entraîne les modèles LightGBM et XGBoost.
-    Test.py : Évalue les performances des modèles.
-    references.txt : Contient les informations sur les données utilisées.
+This project implements a fraud detection model for credit card transactions using LightGBM and XGBoost. The challenge addressed in this project is the significant class imbalance, with a large lack of data for the positive class (fraudulent transactions).
 
+## Project Structure
 
-Installez les dépendances avec :
+- **main.py**: Runs the entire pipeline (preprocessing, training, and evaluation).
+- **data_processing_n_analysis.py**: Prepares the data and contains analysis functions.
+- **Train.py**: Trains the LightGBM and XGBoost models.
+- **Test.py**: Evaluates the performance of the models.
+- **references.txt**: Contains information about the dataset used.
+
+## Installation
+
+To install the required dependencies, use the following command:
+
+```bash
 pip install -r requirements.txt
+```
 
-Utilisation :
+## Usage
+
+To run the project, execute the following command:
+
+```bash
 python main.py
+```
 
-Résultats :
-    ROC AUC : 98%,
-    Précision : 91%,
-    Rappel (classe positive) : 85%
+## Results
+
+- **ROC AUC: 98%**
+- **Precision: 91%**
+- **Recall (positive class): 85%**
+
+## License
+
+This project is licensed under the MIT License
